@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userEnter"
+    android:background="#FFFFFF"
+    android:baselineAligned="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/mdd"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginLeft="125sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="40sp"
+        android:text="فئة المستفيد"
+        android:textAlignment="center"
+        android:textColor="#6E6C6C"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="308dp"/>
+
+    <Button
+        android:id="@+id/button3"
+
+        android:text="الصم و البكم"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="461dp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="20sp"
+        android:background="#F4EFEF"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:textSize="20dp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="20sp"
+        android:background="#F4EFEF"
+        android:text="كفيف"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="166dp" />
+</LinearLayout>

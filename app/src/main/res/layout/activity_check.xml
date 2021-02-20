@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".check"
+    android:background="#FFFFFF"
+    android:baselineAligned="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/mdd"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="40sp"
+        android:layout_marginRight="100dp"
+        android:text="ادخل رمز التأكيد"
+        android:textAlignment="center"
+        android:textColor="#6E6C6C"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="4"
+        android:layout_marginLeft="150sp"
+        android:layout_marginBottom="40sp"
+        android:layout_marginRight="100dp"
+        android:inputType="numberSigned"
+        android:text="___ _____ ________ _______"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="20sp"
+        android:background="#F4EFEF"
+        android:text="تأكيد"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="590dp" />
+
+</LinearLayout>
